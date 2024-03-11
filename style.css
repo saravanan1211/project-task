@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');   
+
+:root{
+    --color1:#ccffff;
+    --color2:#000066;
+    --color3:#ff471a;
+    --font-family1: "Roboto", sans-serif;
+    --font-family2: "Dancing Script", cursive;
+   --font-family3: "Quicksand", sans-serif;         
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 10%;
+    margin: 10px;
+
+}
+.navlinks{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin-right: 100px;
+  
+}
+.navlinks li{
+    list-style-type: none;
+   
+}
+.navlinks li a{
+text-decoration: none;
+color: var(--color1);
+font-family: var(--font-family1);
+}
+#check,#checkbtn{
+    display: none;
+    margin-right: 50px;
+}
+.icon{
+    display: flex;
+    color: var(--color1);
+    
+}
+.icon i{
+    padding: 20px;
+
+}
+.fer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    z-index: -2;
+}
+.fer h1{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.3rem;
+    margin: 20px;
+    color: var(--color1);
+
+}
+.fer button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+
+}
+.box-2  {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    height: 200px;
+}
+.box-2 h3{
+    font-family: var(--font-family2);
+    font-size: 1.8rem;
+    text-transform: capitalize;
+ 
+}
+.box-2 h1{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+}
+.box-2 p{
+    font-size: 17px;
+    font-family: var(--font-family1);
+}
+
+.box-3{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.ker{
+    width: 100%;
+    height: 300px;
+}
+.ker h1{
+    font-family: var(--font-family3);
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    opacity: 0.8;
+
+}
+.ker p{
+    width:100%;
+    margin: 30px auto;
+    font-family: var(--font-family1);
+    font-size: 14px;
+   
+}
+.ker a{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--font-family1);
+    text-decoration: underline;
+}
+.box-4{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+#three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+}
+.ter{
+    width: 100%;
+}
+.ter img{
+    width: 90%;
+}
+#four{
+    width: 100%;
+    height: auto;
+    
+}
+.ler{
+    text-align: center;
+}
+.ler h1{
+    font-family: var(--font-family1);
+    font-size:2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    gap: 10px;
+   
+}
+.card-1{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.card-1 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+
+}
+.card-1 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.card-1 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+}
+.card-2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.card-2 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+
+}
+.card-2 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.card-2 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+}
+.card-3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.card-3 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+
+}
+.card-3 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.card-3 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+}
+.card-4{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.card-4 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+
+}
+.card-4 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.card-4 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+}
+#five{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+  
+}
+.mer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+   
+}
+.mer span{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: var(--font-family1);
+    padding: 10px 20px  ;
+    
+}
+.fall{
+    width: 100%;
+    height: auto;
+   
+    margin: 20px;
+}
+.fall img{
+    width: 100%;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+.fall-2 span {
+    display: flex;
+    flex-direction: row;
+}
+.fall-1{
+    width: 100%;
+    height: auto;
+  
+    margin: 20px;
+}
+.fall-1 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 10px;
+}
+.fall-1 p{
+    font-size: 17px;
+    font-family: var(--font-family1);
+    margin: 10px;
+}
+.fall-1 span{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family1);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+.zero{
+    width: 100%;
+    height:100px;
+}
+.zero h1{
+    text-align: center;
+    margin: 40px;
+    text-transform: capitalize;
+    font-family: var(--font-family1);
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+.bar{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.one{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.one h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+}
+.one span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+   
+}
+.one h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+.one img{
+    width: 300px;
+    height: auto;
+}
+.two{
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+}
+.two img{
+    width: 300px;
+    height: auto;
+}
+.two h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 20px;
+}
+.two h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+.two span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+   
+}
+.ten{
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+}
+.ten img{
+    width: 300px;
+    height: auto;
+}
+.ten h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+}
+.ten h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+.ten span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+   
+}
+.per{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.per img{
+    width: 300px;
+    height: auto;
+}
+.per h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+    
+}
+.per h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+.per span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+   
+}
+#seven{
+    width: 100%;
+    height: auto;
+}
+.bar-1{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px;
+}
+.flow{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.flow h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-family: var(--font-family3);
+    font-weight: 300;
+}
+.mur{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mur-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.mur-2{
+    width: 100%;
+    height: auto;
+   
+    margin-top: 50px;
+
+}
+.mur-2 h1{
+    text-transform: capitalize;
+    font-family:var(--font-family1);
+    font-size:3rem;
+    font-weight: 300;
+}
+.mur-2 span{
+    font-size: 18px;
+}
+.mur-2 p{
+    width: 80%;
+    font-size: 17px;
+    font-family: var(--font-family1);
+    margin: 10px;
+}
+.lat{
+    width: 100%;
+    height:200px;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.lat h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-family: var(--font-family3);
+    font-weight: 300;
+
+}
+.sur{
+    width: 100%;
+    height: auto;
+    display:grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+.ure{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ure img{
+    width: 100%;
+    height: auto;
+}
+.gur{
+    width: 100%;
+    height:50vh;
+   
+    text-align: center;
+}
+.gur h5{
+    font-style: italic;
+    font-size: 18px;
+    font-family: var(--font-family1);
+    font-weight: 400;
+    margin: 20px;
+
+
+}
+.gur h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    margin: 20px;
+
+
+}
+.gur p{
+    width: 80%;
+    font-size: 20px;
+    font-family: var(--font-family1);
+    margin: 10px;
+}
+.gur button{
+    margin: 20px;
+    background-color: brown;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+   
+}
+.sur-1{
+    width: 100%;
+    height: auto;
+    display:grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+.gur-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.gur-1 h5{
+    font-style: italic;
+    font-size: 18px;
+    font-family: var(--font-family1);
+    font-weight: 400;
+    margin: 20px;
+
+
+}
+.gur-1 h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    margin: 20px;
+
+
+}
+.gur-1 p{
+    width: 80%;
+    font-size: 20px;
+    font-family: var(--font-family1);
+    margin: 10px;
+}
+.gur-1 button{
+    margin: 20px;
+    background-color: brown;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+   
+}
+.favicon{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 30px;
+  
+}
+#footer{
+    width: 100%;
+    height: auto;
+    background-color:var(--color3);
+}
+.foot{
+    text-align: center;
+    margin: 30px;
+}
+.foot h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    color: white;
+    margin: 20px;
+
+    
+}
+.foot p{
+    width: 100%;
+    font-size: 18px;
+    font-family: var(--font-family1);
+    margin: 10px;
+    color: white;
+
+}
+.foot input{
+  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+   
+
+}
+.last-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.last-1 h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    color: white;
+    margin: 20px;
+
+    
+}
+.last-1 i{
+    margin: 20px;
+}
+
+.last-2{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.last-3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-align: center;
+}
+.last-3 img{
+    width: 50%;
+}
+.last-3 i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+.last-4{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.last-4 h1{
+    margin: 20px;
+
+}
+.last{
+    width: 100%;
+    height:auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+
+
+
+@media (max-width:600px) {
+    #checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: block;
+    }
+    .navlinks{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        flex-direction: column;
+
+    }
+    .navlinks li{
+        text-align: center;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: var(--color2);
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        display: none;
+
+    }
+    .favicon img{
+        width: 50%;
+    }
+    .container{
+        width: auto;
+        height: auto;
+    }
+    .fer{
+        height: auto;
+    }
+    .fer h1{
+        font-size: 2rem;
+        
+    }
+    #three{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .box-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .ker h1{
+        font-size: 2rem;
+    }
+    .card{
+        text-align: center;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
+    #five{
+        width: auto;
+        height: auto;
+        display: grid;
+       
+        grid-template-columns: 1fr;
+      
+      
+    }
+    .mer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+       
+       
+    }
+   
+    .fall img{
+       
+        height: auto;
+        margin-left: auto;
+       
+    }
+    .bar{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bar-1{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .mur{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mur-2{
+        width: auto;
+        height: auto;
+        margin-left:auto;
+      
+    
+ 
+    }
+    .last{
+        width: auto;
+        height:auto ;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+      
+  
+    .mur-2 p{
+        text-align: center;
+      
+    }
+    .sur{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+    .sur-1{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur-1{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+   
+   
+    
+    }
+    
+
+@media (max-width:768px) {
+    #checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: block;
+    }
+    .navlinks{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        flex-direction: column;
+
+    }
+    .navlinks li{
+        text-align: center;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: var(--color2);
+    }
+    .favicon img{
+        width: 50%;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        display: none;
+
+    }
+    .container{
+        width: auto;
+        height: auto;
+    }
+    .fer{
+        height: auto;
+    }
+    .fer h1{
+        font-size: 2rem;
+        
+    }
+    #three{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .box-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .ker h1{
+        font-size: 2rem;
+    }
+    .card{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
+    #five{
+        width: auto;
+        height: auto;
+        display: grid;
+       
+        grid-template-columns: 1fr;
+      
+      
+    }
+    .mer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+       
+       
+    }
+    .last{
+        width: auto;
+        height:auto ;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+    .fall img{
+       
+        height: auto;
+        margin-left: auto;
+       
+    }
+    .bar{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mur{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mur-2{
+        width: auto;
+        height: auto;
+        margin-left:auto;
+      
+    
+ 
+    }
+    .bar-1{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+      
+  
+    .mur-2 p{
+        text-align: center;
+      
+    }
+    .sur{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+    .sur-1{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur-1{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+    
+}
